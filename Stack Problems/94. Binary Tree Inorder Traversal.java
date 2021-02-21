@@ -16,7 +16,32 @@
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         
+        //Recursive solution
         List<Integer> nodes = new ArrayList<Integer>();
+        
+        helper(root, nodes);
+        return nodes;
+    }
+    
+    public void helper(TreeNode root, List<Integer> nodes) {
+        
+        TreeNode curr = root;
+        
+        if(curr != null) {
+            
+            if(curr.left != null)
+                helper(root.left, nodes);
+            
+            nodes.add(curr.val);
+            
+            if(root.right != null)
+                helper(root.right, nodes);
+        }
+    }
+}
+
+/*
+List<Integer> nodes = new ArrayList<Integer>();
         Stack<TreeNode> stack = new Stack<TreeNode>();
         
         TreeNode curr = root;
@@ -35,5 +60,4 @@ class Solution {
         }
         
         return nodes;
-    }
-}
+*/
