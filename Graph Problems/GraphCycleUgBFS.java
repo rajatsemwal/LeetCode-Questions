@@ -30,16 +30,6 @@ class GraphCycleUgBFS {
 			g.addedge(src, des);
 		}
 
-		// addedge(adj, 0, 1);   		/*Contains Cycle*/
-		// addedge(adj, 1, 2); 
-   		// addedge(adj, 2, 0); 			These are just manual test cases
-  	   	// addedge(adj, 2, 3);
-
-
-		// addedge(adj, 0, 1);		/*Does not contains cycle*/
-		// addedge(adj, 1, 2);
-		// addedge(adj, 2, 3);
-
 		if(g.isCyclicExist(v))
 			System.out.println("Yes, the cycle exists!");
 		else
