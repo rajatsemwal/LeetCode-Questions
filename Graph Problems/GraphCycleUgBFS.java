@@ -32,7 +32,7 @@ class GraphCycleUgBFS {
 
 		// addedge(adj, 0, 1);   		/*Contains Cycle*/
 		// addedge(adj, 1, 2); 
-   		// addedge(adj, 2, 0); 
+   		// addedge(adj, 2, 0); 			These are just manual test cases
   	   	// addedge(adj, 2, 3);
 
 
