@@ -1,5 +1,5 @@
 /* This cycle detection is done using DFS.
-This is not any LeetCode ques, but you should know how detect cycle in an Undirected Graph using DFS. */
+This is not any LeetCode ques, but you should know how to detect cycle in an Undirected Graph using DFS. */
 
 import java.util.*;
 
