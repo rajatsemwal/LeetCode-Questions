@@ -1,6 +1,6 @@
 /*This Topological sort is done here using DFS. One imoportant thing to note here is that the Topological
 sort only works on a DAG(Directed Acyclic Graph). If in any case, you are not sure whether the input 
-conatins cycle or not, you must check it before finding Topo Sort of that graph.*/
+contains cycle or not, you must check it before finding Topo Sort of that graph.*/
 
 import java.util.*;
 
