@@ -1,6 +1,6 @@
 /*This method uses Kahn's Algorithm to find cycle in a directed Graph. It is quite same to finding the Topo
 sort using Kahn's algo, but this is little different from it, like a hack. As we know, Topo Sort exists
-only for DAG. So, we check if there exists any cycle, we return true, else false. We acheive this by keeping
+only for DAG(Directed Acyclic Graph). So, we check if there exists any cycle, we return true, else false. We acheive this by keeping
 the count of nodes we encounter during Topo Sort. At the end of the algo, if the count is equal to the
 number of nodes in the graph, we say there's no cycle in the graph(return false), otherwise, we return true.
 */
