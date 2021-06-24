@@ -5,6 +5,7 @@ It is recommended for all the graph concepts and problems!*/
 
 import java.util.*;
 
+// A Pair class is made to store a vertex's adjacent node and weigth associated with the edge.
 class Pair {
 
     int v; //adjacent vertex
