@@ -33,25 +33,25 @@ public class GraphDFS {
 		}
 	}
 
-	public void dfstack(int source) {
-		boolean[] vis = new boolean[adj.length];
-		vis[source] = true;
-		System.out.println(source + " ");
+// 	public void dfstack(int source) {
+// 		boolean[] vis = new boolean[adj.length];
+// 		vis[source] = true;
+// 		System.out.println(source + " ");
 
-		Stack<Integer> stack = new Stack<>();
-		stack.push(source);
+// 		Stack<Integer> stack = new Stack<>();
+// 		stack.push(source);
 
-		while(!stack.isEmpty()) {
-			source = stack.pop();
+// 		while(!stack.isEmpty()) {
+// 			source = stack.pop();
 
-			for(int nei: adj[source]) {
-				if(vis[nei] == false) {
-					vis[nei] = true;
-					stack.push(nei);
-				}
-			}
-		}
-	}
+// 			for(int nei: adj[source]) {
+// 				if(vis[nei] == false) {
+// 					vis[nei] = true;
+// 					stack.push(nei);
+// 				}
+// 			}
+// 		}
+// 	}
 
 	public ArrayList<Integer> dfs(int v) {
 
