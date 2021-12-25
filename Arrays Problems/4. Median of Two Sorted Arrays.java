@@ -45,6 +45,7 @@ left subaray and right subarray of the merged array. We need to find the largest
 those elements. Hence, optimising the time and space complexity of brute force approach.
 Time Complexity - O(log(min(m,n))) (min(m,n) because we will be iterating over the smaller array)
 Space Complexity - O(1)
+For better understansing, see this video - https://www.youtube.com/watch?v=jDJuW7tSxio
 */
 
 class Solution {
